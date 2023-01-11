@@ -1,0 +1,63 @@
+.jumbotron {
+  background-image: url("https://images.unsplash.com/photo-1436491865332-7a61a109cc05?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2074&q=80");
+  height: 50vh;
+  background-size: cover;
+  border-bottom: 10px solid rgb(196, 216, 219);
+}
+
+.banner-card {
+  opacity: 50%;
+}
+
+.banner-card:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8),
+    rgba(0, 0, 0, 0) 60%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+}
+
+.dest-card:hover {
+  background: #e0e0e0;
+  box-shadow: 3px 3px 10px #8b8a8a, -3px -3px 10px #ffffff;
+}
+
+.collapseExample {
+  width: 100vw;
+}
+
+.card-full img {
+  object-fit: cover;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media screen and (max-width: 600px) {
+  .deal-section {
+    display: none;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media screen and (min-width: 600px) {
+  .covers {
+    width: 200px;
+    height: 200px;
+    margin: 0;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+}
